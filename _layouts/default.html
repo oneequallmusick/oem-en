@@ -1,0 +1,47 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero lazyload" data-bg="{{ '/assets/img/sleek_lg.jpg' | relative_url }}">
+      <div class="hero__wrap">
+      	<img class="frontlogo" src="{{ '/assets/img/oemlogo-white-horizontal-large.png' | relative_url }}">
+      </div>
+    </div>
+
+    <main class="site__content">
+    <div id="welcome" class="container">
+<table>
+<tr><td id="calendarpreview" colspan="2">
+<h1>Biaute Paree de Valour</h1>
+<h3>Oeuvres de Guillaume Machaut</h3>
+<h5>Rebecca Bain, Direction</h5></td></tr>
+<tr><td class="frontinfo englishinfo"><h2>16 February 2018<br>3pm</h2><h3>Chapel of Notre Dame de Bonsecours</h3><p>Street</p><h4 class="right"><a href="http://en.oneequallmusick.org/tickets/">All Tickets</a></h4></td><td class="frontinfo infofrancais"><h2>16 Fev 2018<br>15h</h2><h3>Chapelle de Notre-Dame-de-Bonsecours</h3>
+<p>Rue</p><h4 class="left"><a href="http://fr.oneequallmusick.org/billets/">Tous les billets</a></h4></td></tr>
+<tr><td class="frontdivider" colspan="2"><hr></td></tr>
+<tr><td class="frontinfo englishinfo"><h1><a href="http://en.oneequallmusick.org">Welcome</a></h1></td><td class="frontinfo infofrancais"><h1><a href="http://fr.oneequallmusick.org">Bienvenue</a></h1></td></tr>
+<tr><td class="frontinfo englishinfo frontinfodescription"><p>Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day. </p></td><td class="frontinfo infofrancais frontinfodescription"><p>Établi à Montréal, l’ensemble vocal collaboratif One Equall Musick se consacre à l’interprétation des oeuvres musicales les plus raffinées du XVe siècle à aujourd'hui.</p></td></tr>
+</table>
+</div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
