@@ -9,14 +9,14 @@ description: >
 lead:
 performances:
   - title: "Music in the Time of Tallis"
-    subtitle: "the Transformation of English Choral Music c.1530-c.1580 - Sheppard, Mundy, Parsons, Tallis"
+    subtitle: "The Transformation of English Choral Music c.1530-c.1580 - Sheppard, Mundy, Parsons, Tallis"
     date: "March 15, 2013"
     time: "730pm"
     venue: "St. James the Apostle Anglican Church"
-    address: 
+    address: "1439 Saint-Catherine St W, Montreal, QC H3G 1S6"
     ticketsurl: 
-    facebookurl: 
-    posterimage:
+    facebookurl: "https://www.facebook.com/events/462981847162516/"
+    posterimage: "2013/musicinthetimeoftallis.png"
     guests:
     - name:
       director:

@@ -13,10 +13,10 @@ performances:
     date: "June 10, 2014"
     time: "730pm"
     venue: "Trinity Memorial Anglican Church"
-    address: 
+    address: "5220 Rue Sherbrooke O, Montreal, Quebec H4A 1T8"
     ticketsurl: 
-    facebookurl: 
-    posterimage:
+    facebookurl: "https://www.facebook.com/events/709724899087906/"
+    posterimage: "2014/invitamortali.png"
     guests:
     - name: "Jonathan Addleman"
       director:

@@ -13,10 +13,10 @@ performances:
     date: "April 29, 2012"
     time: "7pm"
     venue: "Trinity Memorial Anglican Church"
-    address: 
+    address: "5220 Rue Sherbrooke O, Montreal, Quebec H4A 1T8"
     ticketsurl: 
-    facebookurl: 
-    posterimage:
+    facebookurl: "https://www.facebook.com/events/814323388657625/"
+    posterimage: "2012/howellsrequiem.png"
     guests:
     - name: 
       director: 

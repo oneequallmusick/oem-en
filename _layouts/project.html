@@ -33,7 +33,8 @@ layout: compress
           {{ content }}
           <hr>
           {% for performance in page.performances %}
-            <div class="projectposter"><img class="poster" src="{{ '/assets/img/portraits/' | relative_url }}{{performance.posterimage}}"></div>
+          <div class="performance">
+            <div class="projectposter">{% if performance.posterimage %}<img class="poster" src="{{ '/assets/img/posters/' | relative_url }}{{performance.posterimage}}">{% endif %}</div>
             <div class="projectdetails"><h2>{{performance.title}}</h2>
             <h4>{% if performance.subtitle %}
               {{performance.subtitle}}
@@ -54,8 +55,10 @@ layout: compress
             {% if performance.ticketsurl %}
               <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
             {% endif %}
-          {% endfor %}
+            </div>
           </div>
+          <hr>
+          {% endfor %}
 
         </div>
       </div>

@@ -5,7 +5,7 @@ permalink: "/projects/2016/heritage-andalou/"
 projectyear: "2016"
 categories: [project]
 description: >
-  La péninsule ibérique médiévale, qu'en arabe on nomme “al-Andalus”, a été un point de rendez-vous unique pour les cultures juive, musulmane et chrétienne. Cet environnement incomparable a donné naissance à trois grandes traditions musicales: la musique séfarade, la musique andalouse et la musique de la Renaissance espagnole. L’ensemble vocal One Equall Musick, l'Ensemble Séfarade et Méditerranéen (ESEM) et la chanteuse Lamia Yared vous offrent une soirée entremêlant ces traditions musicales, une aventure au coeur de l’héritage andalou. 
+  The medieval Iberian peninsula, named “al-Andalus” in Arabic, was a meeting place for Jewish, Islamic, and Christian cultures. This unique environment gave birth to three great musical traditions: Sephardic, Andalusian, and Spanish Renaissance music. The vocal ensemble One Equall Musick; l’Ensemble Séfarade et Méditeranéen (ESEM); vocalist Lamia Yared, qanun player Nizar Tacharani and percussionist Nathaniel Huard weave these threads together in a program that evokes the spirit of al-Andalus.
 lead:
 performances:
   - title: "Héritage Andalou"
@@ -13,11 +13,13 @@ performances:
     date: "May 15, 2016"
     time: "730pm"
     venue: "Espace Aline Letendre, Le Gesù"
-    address: 
+    address: "1200 de Bleury Montréal, QC H3B 3J3"
     ticketsurl: 
-    facebookurl: 
-    posterimage:
+    facebookurl: "https://www.facebook.com/events/1554397584890971/"
+    posterimage: "2016/heritageandalou.jpg"
     guests:
-    - name:
+    - name: "Ensemble Séfarade et Méditerranéen (ESEM)"
       director:
+    - name: "Lamia Yared"
+      director: 
 ---

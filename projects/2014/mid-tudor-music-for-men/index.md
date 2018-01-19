@@ -4,16 +4,15 @@ title: "Mid-Tudor Music for Men"
 permalink: "/projects/2014/mid-tudor-music-for-men/"
 projectyear: "2014"
 categories: [project]
-description: >
-  Wanley blurb, "Music for Men's Voices from the Wanley Partbooks". August, 2014
+description:
 lead:
 performances:
-  - title: 
+  - title: "Mid-Tudor Music for Men from the Wanley Partbooks"
     subtitle: 
-    date: 
+    date: "August 2014"
     time: 
-    venue:
-    address: 
+    venue: "Trinity Memorial Anglican Church"
+    address: "5220 Rue Sherbrooke O, Montreal, Quebec H4A 1T8" 
     ticketsurl: 
     facebookurl: 
     posterimage:

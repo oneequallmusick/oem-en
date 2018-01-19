@@ -15,7 +15,7 @@ performances:
     venue: "St. James the Apostle Anglican Church"
     address: 
     ticketsurl: 
-    facebookurl: 
+    facebookurl: "https://www.facebook.com/events/785831784839114/"
     posterimage:
     guests:
     - name: "Hans-Ola Ericsson, organ"

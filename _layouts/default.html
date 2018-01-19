@@ -18,25 +18,43 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ '/assets/img/sleek_lg.jpg' | relative_url }}">
-      <div class="hero__wrap">
-      	<img class="frontlogo" src="{{ '/assets/img/oemlogo-white-horizontal-large.png' | relative_url }}">
-      </div>
+    <div class="hero--small">
+      	&nbsp;
     </div>
 
     <main class="site__content">
     <div id="welcome" class="container">
-<table>
-<tr><td id="calendarpreview" colspan="2">
-<h1>Biaute Paree de Valour</h1>
-<h3>Oeuvres de Guillaume Machaut</h3>
-<h5>Rebecca Bain, Direction</h5></td></tr>
-<tr><td class="frontinfo englishinfo"><h2>16 February 2018<br>3pm</h2><h3>Chapel of Notre Dame de Bonsecours</h3><p>Street</p><h4 class="right"><a href="http://en.oneequallmusick.org/tickets/">All Tickets</a></h4></td><td class="frontinfo infofrancais"><h2>16 Fev 2018<br>15h</h2><h3>Chapelle de Notre-Dame-de-Bonsecours</h3>
-<p>Rue</p><h4 class="left"><a href="http://fr.oneequallmusick.org/billets/">Tous les billets</a></h4></td></tr>
-<tr><td class="frontdivider" colspan="2"><hr></td></tr>
-<tr><td class="frontinfo englishinfo"><h1><a href="http://en.oneequallmusick.org">Welcome</a></h1></td><td class="frontinfo infofrancais"><h1><a href="http://fr.oneequallmusick.org">Bienvenue</a></h1></td></tr>
-<tr><td class="frontinfo englishinfo frontinfodescription"><p>Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day. </p></td><td class="frontinfo infofrancais frontinfodescription"><p>Établi à Montréal, l’ensemble vocal collaboratif One Equall Musick se consacre à l’interprétation des oeuvres musicales les plus raffinées du XVe siècle à aujourd'hui.</p></td></tr>
-</table>
+<h1><a href="http://en.oneequallmusick.org">Welcome</a></h1>
+<p class="frontinfodescription">Montreal-based One Equall Musick is a collaborative vocal ensemble dedicated to the programming and interpretation of high quality repertoire from the fifteenth-century to the present day. </p>
+<hr>
+{% for page in site.pages %}
+      {% if page.categories contains 'current' %}
+        {% for performance in page.performances %}
+          <div class="performance">
+            <h1>{{performance.title}}</h1>
+            <h3>{% if performance.subtitle %}
+              {{performance.subtitle}}
+            {% endif %}</h3>
+            {% for performance in performance.guests%}
+              {% if performance.name %}<h5>
+                {{performance.name}}{% if performance.director %}
+                - {{performance.director}}, Director
+                {% endif %}</h5>
+              {% endif %}
+            {% endfor %}
+            <h2>{{performance.date}} at {{performance.time}}</h2>
+            <h4>{{performance.venue}}<br/>
+            {{performance.address}}</h4>
+            {% if performance.facebookurl %}
+              <p>Check out Facebook at <a href="{{performance.facebookurl}}">{{performance.facebookurl}}</a>.</p>
+            {% endif %}
+            {% if performance.ticketsurl %}
+              <p>Tickets available at <a href="{{performance.ticketsurl}}">{{performance.ticketsurl}}</a>.</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
 </div>
     </main>
 

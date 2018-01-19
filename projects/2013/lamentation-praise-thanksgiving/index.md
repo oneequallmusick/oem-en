@@ -12,10 +12,10 @@ performances:
     date: "May 5, 2013"
     time: "8pm"
     venue: "Trinity Memorial Anglican Church"
-    address: 
+    address: "5220 Rue Sherbrooke O, Montreal, Quebec H4A 1T8"
     ticketsurl: 
-    facebookurl: 
-    posterimage:
+    facebookurl: "https://www.facebook.com/events/189556514525433/"
+    posterimage: "2013/lamentationpraisethanksgiving.png"
     guests:
     - name:
       director:
