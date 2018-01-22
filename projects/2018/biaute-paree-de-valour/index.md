@@ -12,7 +12,7 @@ performances:
     date: "Feb 8, 2018"
     time: "3pm"
     venue: "Notre-Dame de Bonsecours"
-    address: 
+    address: "400 St Paul St. East, Montreal, QC H2Y 1H4"
     ticketsurl:
     facebookurl: 
     posterimage:
