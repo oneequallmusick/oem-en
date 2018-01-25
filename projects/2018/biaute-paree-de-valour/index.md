@@ -9,7 +9,7 @@ lead:
 performances:
   - title: "Biauté parée de valour"
     subtitle: "Oeuvres de Guillaume de Machaut (c.1300-1377)"
-    date: "Feb 8, 2018"
+    date: "Feb 10, 2018"
     time: "3pm"
     venue: "Notre-Dame de Bonsecours"
     address: "400 St Paul St. East, Montreal, QC H2Y 1H4"
