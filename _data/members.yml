@@ -7,7 +7,7 @@
   homepage:
    
 - name: "Duncan Campbell"
-  roles: "member"
+  roles: "former"
   id: "dcampbell"
   bio: "Toronto-born Duncan Campbell is continuously falling deeper in love with the place, the people and the music that make up the city of Montreal. Having completed his Bachelor's in classical trumpet at McGill, he is now pursuing an extracurricular education in a broad range of disciplines, including but not limited to salsa, balkan folk, baroque trumpet and renaissance polyphony. He can be found among the teeming throng Sunday mornings at St. Andrew's and St. Paul's, or else riding his bike very quickly and very comfortably through the streets of downtown."
   email:
@@ -57,8 +57,16 @@
   twitter: 
   homepage: ""
 
+- name: "Adrian Foster"
+  roles: "board"
+  id: "afoster"
+  bio: ""
+  email:
+  twitter: 
+  homepage: ""
+
 - name: "Carole LeDez"
-  roles: "member, board"
+  roles: "member"
   id: "cledez"
   bio: "Carole spent many years living and studying in Europe. After achieving a degree in Performance and Composition at Huddersfield in Yorkshire, she found a niche singing contemporary music. She later decided to exchange leaning over pianos and singing high ‘C’ s for the romantic repertoire of France and Germany, becoming a member of the Ensemble Vocal Michel Piquemal in Paris. Arriving back in Canada, she continued to travel backwards in time and has sung with various early music groups in the Montreal area. She is a founding member of OEM and has recently also joined the medieval ensemble Scholastica. Carole is a soloist with Ensemble Da Capo. She continues to study voice with Lyne Fortin. "
   email:
